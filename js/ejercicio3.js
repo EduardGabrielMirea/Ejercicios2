@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     var titulo = document.getElementById("title");
-    titulo.textContent = "Bienvenido a mi página";  // Usamos textContent en lugar de innerHTML
-
+    titulo.textContent = "Bienvenido a mi página";  
+    
     var plataforma = document.getElementById("platform");
-    plataforma.textContent = navigator.userAgent;  // Usamos textContent para evitar posibles problemas de seguridad
+    plataforma.textContent = navigator.userAgent; 
 
     if (confirm("¿Quieres continuar?")) {
         alert("Continuamos...");
