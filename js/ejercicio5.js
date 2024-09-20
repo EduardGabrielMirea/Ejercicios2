@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded",function horaActual() {
-    const boton = document.getElementById("mostrarHora");
-
+document.addEventListener("DOMContentLoaded",function(){
+    const boton = document.getElementById("mostrarFecha");
+    boton.textContent = "Fecha Actual";
     boton.addEventListener("click", function() {
 
         const fecha = new Date();
